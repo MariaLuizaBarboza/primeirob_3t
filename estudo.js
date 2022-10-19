@@ -46,3 +46,42 @@ for (let i=1; i <= t;i++) {
 }
   document.write("Resultado: "+ r);
 }
+function media(){
+  let n1 = document.getElementById("n1").value;
+  let n2 = document.getElementById("n2").value;
+  let n3 = document.getElementById("n3").value;
+  let n4 = document.getElementById("n4").value;
+
+let r = (Number (n1)+ Number(n2)+ Number(n3)+ Number(n4))/4;
+document.getElementById("resul").innerHTML ="Media:" + r;
+}
+
+function somar(){
+  let n1 = document.getElementById("n1").value;
+  let n2 = document.getElementById("n2").value;
+  let n3 = document.getElementById("n3").value;
+  let n4 = document.getElementById("n4").value;
+
+let r = (Number (n1)+ Number(n2)+ Number(n3)+ Number(n4));
+document.getElementById("resul").innerHTML ="Soma:" + r;
+}
+
+function diminuir (){
+  let n1 = document.getElementById("n1").value;
+  let n2 = document.getElementById("n2").value;
+  let n3 = document.getElementById("n3").value;
+  let n4 = document.getElementById("n4").value;
+
+let r = (Number (n1)- Number(n2)- Number(n3)- Number(n4));
+document.getElementById("resul").innerHTML ="Diminuição:" + r;
+}
+
+function multiplicar (){
+  let n1 = document.getElementById("n1").value;
+  let n2 = document.getElementById("n2").value;
+  let n3 = document.getElementById("n3").value;
+  let n4 = document.getElementById("n4").value;
+
+let r = (Number (n1)* Number(n2)* Number(n3)* Number(n4));
+document.getElementById("resul").innerHTML ="Multiplicação:" + r;
+}
