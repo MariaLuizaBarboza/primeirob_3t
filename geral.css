@@ -4,8 +4,8 @@ padding: 0;
 font-family: 'Courier New', Courier, monospace;
 }
 .calculadora {
-    background: #e6c5ff;
-    color: #1d1732;
+    background: #0d0f36;
+    color: #ffabab;
     width: 200px;
     padding: 10px;
     text-align: center;
@@ -20,13 +20,13 @@ font-family: 'Courier New', Courier, monospace;
 .calculadora button{
     padding: 5px;
     margin-top: 5px;
-    background:#1d1732 ;
+    background:#0d0f36 ;
     color: #e6c5ff; 
     border-radius: 15px;
 }
 
 #sptotalgeral {
-    background: #1d1732;
+    background:#0d0f36;
     color: #e6c5ff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 4px;
